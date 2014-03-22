@@ -8,16 +8,26 @@
 
 #import "AppDelegate.h"
 
+#import "SplashStartupVC.h"
+
 @implementation AppDelegate
+
+@synthesize window, navigationController;
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
-    // Override point for customization after application launch.
-    self.window.backgroundColor = [UIColor whiteColor];
+    SplashStartupVC* splashStartupVC = [[SplashStartupVC alloc] initWithNibName:@"SplashStartupVC" bundle:nil];
+
+    self.navigationController = [[UINavigationController alloc] initWithRootViewController:splashStartupVC];
+
+    CGRect screenBounds = [[UIScreen mainScreen] bounds];
+    self.window = [[UIWindow alloc] initWithFrame: screenBounds];
+    [self.window setRootViewController:navigationController];
     [self.window makeKeyAndVisible];
+    
     return YES;
 }
+
 
 - (void)applicationWillResignActive:(UIApplication *)application
 {
