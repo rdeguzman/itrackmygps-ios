@@ -23,9 +23,9 @@
 		9A873CD418DA347F00471C35 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		9A873CD618DA347F00471C35 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		9A873CD818DA347F00471C35 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		9A873CDC18DA347F00471C35 /* itrackmygps-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "itrackmygps-Info.plist"; sourceTree = "<group>"; };
+		9A873CDC18DA347F00471C35 /* itrackmygps-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "itrackmygps-Info.plist"; path = "../../SupportingFiles/itrackmygps-Info.plist"; sourceTree = "<group>"; };
 		9A873CDE18DA347F00471C35 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		9A873CE018DA347F00471C35 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9A873CE018DA347F00471C35 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = main.m; path = ../../SupportingFiles/main.m; sourceTree = "<group>"; };
 		9A873CE218DA347F00471C35 /* itrackmygps-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "itrackmygps-Prefix.pch"; sourceTree = "<group>"; };
 		9A873CED18DA347F00471C35 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		9AB8B51A18E1AA9700569D92 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
@@ -54,6 +54,7 @@
 			isa = PBXGroup;
 			children = (
 				9A873CDA18DA347F00471C35 /* itrackmygps */,
+				9A873CDB18DA347F00471C35 /* SupportingFiles */,
 				9AB8B51918E1AA9700569D92 /* Resources */,
 				9A873CD318DA347F00471C35 /* Frameworks */,
 				9A873CD218DA347F00471C35 /* Products */,
@@ -89,7 +90,6 @@
 				9AB8B52618E1AC2400569D92 /* Models */,
 				9AB8B52718E1AC2400569D92 /* Support */,
 				9AB8B52818E1AC2400569D92 /* Views */,
-				9A873CDB18DA347F00471C35 /* SupportingFiles */,
 			);
 			path = itrackmygps;
 			sourceTree = "<group>";
@@ -102,7 +102,8 @@
 				9A873CE018DA347F00471C35 /* main.m */,
 				9A873CE218DA347F00471C35 /* itrackmygps-Prefix.pch */,
 			);
-			path = SupportingFiles;
+			name = SupportingFiles;
+			path = itrackmygps/SupportingFiles;
 			sourceTree = "<group>";
 		};
 		9AB8B51918E1AA9700569D92 /* Resources */ = {
@@ -251,6 +252,7 @@
 				9A873CDE18DA347F00471C35 /* en */,
 			);
 			name = InfoPlist.strings;
+			path = ../../SupportingFiles;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -337,8 +339,8 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "itrackmygps/SupportingFiles/itrackmygps-Prefix.pch";
-				INFOPLIST_FILE = "itrackmygps/SupportingFiles/itrackmygps-Info.plist";
+				GCC_PREFIX_HEADER = "SupportingFiles/itrackmygps-Prefix.pch";
+				INFOPLIST_FILE = "SupportingFiles/itrackmygps-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "A1CB3DD9-AEC3-45BC-BC59-E5DF5E895C03";
 				WRAPPER_EXTENSION = app;
@@ -353,8 +355,8 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "itrackmygps/SupportingFiles/itrackmygps-Prefix.pch";
-				INFOPLIST_FILE = "itrackmygps/SupportingFiles/itrackmygps-Info.plist";
+				GCC_PREFIX_HEADER = "SupportingFiles/itrackmygps-Prefix.pch";
+				INFOPLIST_FILE = "SupportingFiles/itrackmygps-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "F9FA9991-3A94-4E21-8332-75227ABE0BC3";
 				WRAPPER_EXTENSION = app;
