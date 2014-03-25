@@ -14,24 +14,9 @@
 		9A873CE118DA347F00471C35 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A873CE018DA347F00471C35 /* main.m */; };
 		9A873CE518DA347F00471C35 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A873CE418DA347F00471C35 /* AppDelegate.m */; };
 		9A873CE718DA347F00471C35 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A873CE618DA347F00471C35 /* Images.xcassets */; };
-		9A873CEE18DA347F00471C35 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A873CED18DA347F00471C35 /* XCTest.framework */; };
-		9A873CEF18DA347F00471C35 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A873CD418DA347F00471C35 /* Foundation.framework */; };
-		9A873CF018DA347F00471C35 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A873CD818DA347F00471C35 /* UIKit.framework */; };
-		9A873CF818DA348000471C35 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9A873CF618DA348000471C35 /* InfoPlist.strings */; };
-		9A873CFA18DA348000471C35 /* itrackmygpsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A873CF918DA348000471C35 /* itrackmygpsTests.m */; };
 		9AC388C618DD129B001C8427 /* SplashStartupVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AC388C418DD129B001C8427 /* SplashStartupVC.m */; };
 		9AC3890E18DD2485001C8427 /* SplashStartupVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9AC3890D18DD2485001C8427 /* SplashStartupVC.xib */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		9A873CF118DA347F00471C35 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 9A873CC918DA347F00471C35 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 9A873CD018DA347F00471C35;
-			remoteInfo = itrackmygps;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		9A873CD118DA347F00471C35 /* itrackmygps.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = itrackmygps.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -45,11 +30,7 @@
 		9A873CE318DA347F00471C35 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		9A873CE418DA347F00471C35 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		9A873CE618DA347F00471C35 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		9A873CEC18DA347F00471C35 /* itrackmygpsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = itrackmygpsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A873CED18DA347F00471C35 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		9A873CF518DA347F00471C35 /* itrackmygpsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "itrackmygpsTests-Info.plist"; sourceTree = "<group>"; };
-		9A873CF718DA348000471C35 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		9A873CF918DA348000471C35 /* itrackmygpsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = itrackmygpsTests.m; sourceTree = "<group>"; };
 		9AC388C318DD129B001C8427 /* SplashStartupVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SplashStartupVC.h; sourceTree = "<group>"; };
 		9AC388C418DD129B001C8427 /* SplashStartupVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SplashStartupVC.m; sourceTree = "<group>"; };
 		9AC3890D18DD2485001C8427 /* SplashStartupVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SplashStartupVC.xib; sourceTree = "<group>"; };
@@ -66,16 +47,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9A873CE918DA347F00471C35 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				9A873CEE18DA347F00471C35 /* XCTest.framework in Frameworks */,
-				9A873CF018DA347F00471C35 /* UIKit.framework in Frameworks */,
-				9A873CEF18DA347F00471C35 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -83,7 +54,6 @@
 			isa = PBXGroup;
 			children = (
 				9A873CDA18DA347F00471C35 /* itrackmygps */,
-				9A873CF318DA347F00471C35 /* itrackmygpsTests */,
 				9A873CD318DA347F00471C35 /* Frameworks */,
 				9A873CD218DA347F00471C35 /* Products */,
 			);
@@ -93,7 +63,6 @@
 			isa = PBXGroup;
 			children = (
 				9A873CD118DA347F00471C35 /* itrackmygps.app */,
-				9A873CEC18DA347F00471C35 /* itrackmygpsTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -134,24 +103,6 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		9A873CF318DA347F00471C35 /* itrackmygpsTests */ = {
-			isa = PBXGroup;
-			children = (
-				9A873CF918DA348000471C35 /* itrackmygpsTests.m */,
-				9A873CF418DA347F00471C35 /* Supporting Files */,
-			);
-			path = itrackmygpsTests;
-			sourceTree = "<group>";
-		};
-		9A873CF418DA347F00471C35 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				9A873CF518DA347F00471C35 /* itrackmygpsTests-Info.plist */,
-				9A873CF618DA348000471C35 /* InfoPlist.strings */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
 		9AC3890C18DD2485001C8427 /* xibs */ = {
 			isa = PBXGroup;
 			children = (
@@ -180,24 +131,6 @@
 			productReference = 9A873CD118DA347F00471C35 /* itrackmygps.app */;
 			productType = "com.apple.product-type.application";
 		};
-		9A873CEB18DA347F00471C35 /* itrackmygpsTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 9A873D0018DA348000471C35 /* Build configuration list for PBXNativeTarget "itrackmygpsTests" */;
-			buildPhases = (
-				9A873CE818DA347F00471C35 /* Sources */,
-				9A873CE918DA347F00471C35 /* Frameworks */,
-				9A873CEA18DA347F00471C35 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				9A873CF218DA347F00471C35 /* PBXTargetDependency */,
-			);
-			name = itrackmygpsTests;
-			productName = itrackmygpsTests;
-			productReference = 9A873CEC18DA347F00471C35 /* itrackmygpsTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -209,9 +142,6 @@
 				TargetAttributes = {
 					9A873CD018DA347F00471C35 = {
 						DevelopmentTeam = LV4B25HQCM;
-					};
-					9A873CEB18DA347F00471C35 = {
-						TestTargetID = 9A873CD018DA347F00471C35;
 					};
 				};
 			};
@@ -228,7 +158,6 @@
 			projectRoot = "";
 			targets = (
 				9A873CD018DA347F00471C35 /* itrackmygps */,
-				9A873CEB18DA347F00471C35 /* itrackmygpsTests */,
 			);
 		};
 /* End PBXProject section */
@@ -241,14 +170,6 @@
 				9A873CDF18DA347F00471C35 /* InfoPlist.strings in Resources */,
 				9A873CE718DA347F00471C35 /* Images.xcassets in Resources */,
 				9AC3890E18DD2485001C8427 /* SplashStartupVC.xib in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		9A873CEA18DA347F00471C35 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				9A873CF818DA348000471C35 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,37 +186,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9A873CE818DA347F00471C35 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				9A873CFA18DA348000471C35 /* itrackmygpsTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		9A873CF218DA347F00471C35 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 9A873CD018DA347F00471C35 /* itrackmygps */;
-			targetProxy = 9A873CF118DA347F00471C35 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		9A873CDD18DA347F00471C35 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
 				9A873CDE18DA347F00471C35 /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		9A873CF618DA348000471C35 /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				9A873CF718DA348000471C35 /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -408,46 +305,6 @@
 			};
 			name = Release;
 		};
-		9A873D0118DA348000471C35 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/itrackmygps.app/itrackmygps";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "itrackmygps/itrackmygps-Prefix.pch";
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = "itrackmygpsTests/itrackmygpsTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = xctest;
-			};
-			name = Debug;
-		};
-		9A873D0218DA348000471C35 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/itrackmygps.app/itrackmygps";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "itrackmygps/itrackmygps-Prefix.pch";
-				INFOPLIST_FILE = "itrackmygpsTests/itrackmygpsTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = xctest;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -465,15 +322,6 @@
 			buildConfigurations = (
 				9A873CFE18DA348000471C35 /* Debug */,
 				9A873CFF18DA348000471C35 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		9A873D0018DA348000471C35 /* Build configuration list for PBXNativeTarget "itrackmygpsTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				9A873D0118DA348000471C35 /* Debug */,
-				9A873D0218DA348000471C35 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
