@@ -15,7 +15,7 @@
 		9AB8B51B18E1AA9700569D92 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9AB8B51A18E1AA9700569D92 /* Images.xcassets */; };
 		9AB8B51F18E1AB0200569D92 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AB8B51E18E1AB0200569D92 /* AppDelegate.m */; };
 		9AB8B52918E1AC2400569D92 /* SplashStartupVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AB8B52218E1AC2400569D92 /* SplashStartupVC.m */; };
-		9AB8B52A18E1AC2400569D92 /* SplashStartupVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9AB8B52518E1AC2400569D92 /* SplashStartupVC.xib */; };
+		9AB8B52D18E1AFA400569D92 /* SplashStartupVC_iphone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9AB8B52C18E1AFA400569D92 /* SplashStartupVC_iphone.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,7 +33,7 @@
 		9AB8B51E18E1AB0200569D92 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		9AB8B52118E1AC2400569D92 /* SplashStartupVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SplashStartupVC.h; sourceTree = "<group>"; };
 		9AB8B52218E1AC2400569D92 /* SplashStartupVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SplashStartupVC.m; sourceTree = "<group>"; };
-		9AB8B52518E1AC2400569D92 /* SplashStartupVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SplashStartupVC.xib; sourceTree = "<group>"; };
+		9AB8B52C18E1AFA400569D92 /* SplashStartupVC_iphone.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SplashStartupVC_iphone.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,11 +85,10 @@
 			children = (
 				9AB8B51C18E1AB0200569D92 /* Application */,
 				9AB8B52018E1AC2400569D92 /* Controllers */,
-				9AB8B52318E1AC2400569D92 /* iPad */,
-				9AB8B52418E1AC2400569D92 /* iPhone */,
 				9AB8B52618E1AC2400569D92 /* Models */,
 				9AB8B52718E1AC2400569D92 /* Support */,
 				9AB8B52818E1AC2400569D92 /* Views */,
+				9AB8B52B18E1AFA400569D92 /* Xibs */,
 			);
 			path = itrackmygps;
 			sourceTree = "<group>";
@@ -132,21 +131,6 @@
 			path = Controllers;
 			sourceTree = "<group>";
 		};
-		9AB8B52318E1AC2400569D92 /* iPad */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = iPad;
-			sourceTree = "<group>";
-		};
-		9AB8B52418E1AC2400569D92 /* iPhone */ = {
-			isa = PBXGroup;
-			children = (
-				9AB8B52518E1AC2400569D92 /* SplashStartupVC.xib */,
-			);
-			path = iPhone;
-			sourceTree = "<group>";
-		};
 		9AB8B52618E1AC2400569D92 /* Models */ = {
 			isa = PBXGroup;
 			children = (
@@ -166,6 +150,14 @@
 			children = (
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		9AB8B52B18E1AFA400569D92 /* Xibs */ = {
+			isa = PBXGroup;
+			children = (
+				9AB8B52C18E1AFA400569D92 /* SplashStartupVC_iphone.xib */,
+			);
+			path = Xibs;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -224,8 +216,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9AB8B52D18E1AFA400569D92 /* SplashStartupVC_iphone.xib in Resources */,
 				9A873CDF18DA347F00471C35 /* InfoPlist.strings in Resources */,
-				9AB8B52A18E1AC2400569D92 /* SplashStartupVC.xib in Resources */,
 				9AB8B51B18E1AA9700569D92 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

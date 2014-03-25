@@ -16,7 +16,7 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    SplashStartupVC* splashStartupVC = [[SplashStartupVC alloc] initWithNibName:@"SplashStartupVC" bundle:nil];
+    SplashStartupVC* splashStartupVC = [[SplashStartupVC alloc] initWithNibName:@"SplashStartupVC_iphone" bundle:nil];
 
     self.navigationController = [[UINavigationController alloc] initWithRootViewController:splashStartupVC];
 
