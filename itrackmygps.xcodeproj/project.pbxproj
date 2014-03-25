@@ -13,7 +13,7 @@
 		9A873CDF18DA347F00471C35 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9A873CDD18DA347F00471C35 /* InfoPlist.strings */; };
 		9A873CE118DA347F00471C35 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A873CE018DA347F00471C35 /* main.m */; };
 		9A873CE518DA347F00471C35 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A873CE418DA347F00471C35 /* AppDelegate.m */; };
-		9A873CE718DA347F00471C35 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A873CE618DA347F00471C35 /* Images.xcassets */; };
+		9AB8B51B18E1AA9700569D92 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9AB8B51A18E1AA9700569D92 /* Images.xcassets */; };
 		9AC388C618DD129B001C8427 /* SplashStartupVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AC388C418DD129B001C8427 /* SplashStartupVC.m */; };
 		9AC3890E18DD2485001C8427 /* SplashStartupVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9AC3890D18DD2485001C8427 /* SplashStartupVC.xib */; };
 /* End PBXBuildFile section */
@@ -29,8 +29,8 @@
 		9A873CE218DA347F00471C35 /* itrackmygps-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "itrackmygps-Prefix.pch"; sourceTree = "<group>"; };
 		9A873CE318DA347F00471C35 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		9A873CE418DA347F00471C35 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		9A873CE618DA347F00471C35 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		9A873CED18DA347F00471C35 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		9AB8B51A18E1AA9700569D92 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		9AC388C318DD129B001C8427 /* SplashStartupVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SplashStartupVC.h; sourceTree = "<group>"; };
 		9AC388C418DD129B001C8427 /* SplashStartupVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SplashStartupVC.m; sourceTree = "<group>"; };
 		9AC3890D18DD2485001C8427 /* SplashStartupVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SplashStartupVC.xib; sourceTree = "<group>"; };
@@ -81,12 +81,12 @@
 		9A873CDA18DA347F00471C35 /* itrackmygps */ = {
 			isa = PBXGroup;
 			children = (
+				9AB8B51918E1AA9700569D92 /* Resources */,
 				9AC3890C18DD2485001C8427 /* xibs */,
 				9A873CE318DA347F00471C35 /* AppDelegate.h */,
 				9A873CE418DA347F00471C35 /* AppDelegate.m */,
 				9AC388C318DD129B001C8427 /* SplashStartupVC.h */,
 				9AC388C418DD129B001C8427 /* SplashStartupVC.m */,
-				9A873CE618DA347F00471C35 /* Images.xcassets */,
 				9A873CDB18DA347F00471C35 /* SupportingFiles */,
 			);
 			path = itrackmygps;
@@ -102,6 +102,14 @@
 			);
 			path = SupportingFiles;
 			sourceTree = "<group>";
+		};
+		9AB8B51918E1AA9700569D92 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				9AB8B51A18E1AA9700569D92 /* Images.xcassets */,
+			);
+			path = Resources;
+			sourceTree = SOURCE_ROOT;
 		};
 		9AC3890C18DD2485001C8427 /* xibs */ = {
 			isa = PBXGroup;
@@ -168,7 +176,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9A873CDF18DA347F00471C35 /* InfoPlist.strings in Resources */,
-				9A873CE718DA347F00471C35 /* Images.xcassets in Resources */,
+				9AB8B51B18E1AA9700569D92 /* Images.xcassets in Resources */,
 				9AC3890E18DD2485001C8427 /* SplashStartupVC.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
