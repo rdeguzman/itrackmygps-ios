@@ -87,12 +87,12 @@
 				9AC388C318DD129B001C8427 /* SplashStartupVC.h */,
 				9AC388C418DD129B001C8427 /* SplashStartupVC.m */,
 				9A873CE618DA347F00471C35 /* Images.xcassets */,
-				9A873CDB18DA347F00471C35 /* Supporting Files */,
+				9A873CDB18DA347F00471C35 /* SupportingFiles */,
 			);
 			path = itrackmygps;
 			sourceTree = "<group>";
 		};
-		9A873CDB18DA347F00471C35 /* Supporting Files */ = {
+		9A873CDB18DA347F00471C35 /* SupportingFiles */ = {
 			isa = PBXGroup;
 			children = (
 				9A873CDC18DA347F00471C35 /* itrackmygps-Info.plist */,
@@ -100,7 +100,7 @@
 				9A873CE018DA347F00471C35 /* main.m */,
 				9A873CE218DA347F00471C35 /* itrackmygps-Prefix.pch */,
 			);
-			name = "Supporting Files";
+			path = SupportingFiles;
 			sourceTree = "<group>";
 		};
 		9AC3890C18DD2485001C8427 /* xibs */ = {
@@ -281,8 +281,8 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "itrackmygps/itrackmygps-Prefix.pch";
-				INFOPLIST_FILE = "itrackmygps/itrackmygps-Info.plist";
+				GCC_PREFIX_HEADER = "itrackmygps/SupportingFiles/itrackmygps-Prefix.pch";
+				INFOPLIST_FILE = "itrackmygps/SupportingFiles/itrackmygps-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "A1CB3DD9-AEC3-45BC-BC59-E5DF5E895C03";
 				WRAPPER_EXTENSION = app;
@@ -297,8 +297,8 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "itrackmygps/itrackmygps-Prefix.pch";
-				INFOPLIST_FILE = "itrackmygps/itrackmygps-Info.plist";
+				GCC_PREFIX_HEADER = "itrackmygps/SupportingFiles/itrackmygps-Prefix.pch";
+				INFOPLIST_FILE = "itrackmygps/SupportingFiles/itrackmygps-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "F9FA9991-3A94-4E21-8332-75227ABE0BC3";
 				WRAPPER_EXTENSION = app;
