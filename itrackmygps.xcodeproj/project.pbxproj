@@ -23,9 +23,9 @@
 		9A873CD418DA347F00471C35 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		9A873CD618DA347F00471C35 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		9A873CD818DA347F00471C35 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		9A873CDC18DA347F00471C35 /* itrackmygps-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "itrackmygps-Info.plist"; path = "../../SupportingFiles/itrackmygps-Info.plist"; sourceTree = "<group>"; };
+		9A873CDC18DA347F00471C35 /* itrackmygps-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "itrackmygps-Info.plist"; sourceTree = "<group>"; };
 		9A873CDE18DA347F00471C35 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		9A873CE018DA347F00471C35 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = main.m; path = ../../SupportingFiles/main.m; sourceTree = "<group>"; };
+		9A873CE018DA347F00471C35 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		9A873CE218DA347F00471C35 /* itrackmygps-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "itrackmygps-Prefix.pch"; sourceTree = "<group>"; };
 		9A873CED18DA347F00471C35 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		9AB8B51A18E1AA9700569D92 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
@@ -101,8 +101,7 @@
 				9A873CE018DA347F00471C35 /* main.m */,
 				9A873CE218DA347F00471C35 /* itrackmygps-Prefix.pch */,
 			);
-			name = SupportingFiles;
-			path = itrackmygps/SupportingFiles;
+			path = SupportingFiles;
 			sourceTree = "<group>";
 		};
 		9AB8B51918E1AA9700569D92 /* Resources */ = {
@@ -244,8 +243,8 @@
 				9A873CDE18DA347F00471C35 /* en */,
 			);
 			name = InfoPlist.strings;
-			path = ../../SupportingFiles;
-			sourceTree = "<group>";
+			path = SupportingFiles;
+			sourceTree = SOURCE_ROOT;
 		};
 /* End PBXVariantGroup section */
 
