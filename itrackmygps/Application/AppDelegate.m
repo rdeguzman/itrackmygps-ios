@@ -9,6 +9,7 @@
 #import "AppDelegate.h"
 
 #import "SplashStartupVC.h"
+#import "DeviceUtil.h"
 
 @implementation AppDelegate
 
@@ -16,7 +17,7 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    SplashStartupVC* splashStartupVC = [[SplashStartupVC alloc] initWithNibName:@"SplashStartupVC_iphone" bundle:nil];
+    SplashStartupVC* splashStartupVC = [[SplashStartupVC alloc] initWithNibName:[DeviceUtil nibNameForDevice:@"SplashStartupVC"] bundle:nil];
 
     self.navigationController = [[UINavigationController alloc] initWithRootViewController:splashStartupVC];
 

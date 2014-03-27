@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9A5318E518E443B9005DB1F9 /* DeviceUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A5318E418E443B9005DB1F9 /* DeviceUtil.m */; };
+		9A5318E818E44489005DB1F9 /* DebugLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A5318E718E44489005DB1F9 /* DebugLog.m */; };
 		9A873CD518DA347F00471C35 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A873CD418DA347F00471C35 /* Foundation.framework */; };
 		9A873CD718DA347F00471C35 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A873CD618DA347F00471C35 /* CoreGraphics.framework */; };
 		9A873CD918DA347F00471C35 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A873CD818DA347F00471C35 /* UIKit.framework */; };
@@ -19,6 +21,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9A5318E318E443B9005DB1F9 /* DeviceUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeviceUtil.h; sourceTree = "<group>"; };
+		9A5318E418E443B9005DB1F9 /* DeviceUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DeviceUtil.m; sourceTree = "<group>"; };
+		9A5318E618E44489005DB1F9 /* DebugLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DebugLog.h; sourceTree = "<group>"; };
+		9A5318E718E44489005DB1F9 /* DebugLog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DebugLog.m; sourceTree = "<group>"; };
 		9A873CD118DA347F00471C35 /* itrackmygps.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = itrackmygps.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A873CD418DA347F00471C35 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		9A873CD618DA347F00471C35 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -140,6 +146,10 @@
 		9AB8B52718E1AC2400569D92 /* Support */ = {
 			isa = PBXGroup;
 			children = (
+				9A5318E618E44489005DB1F9 /* DebugLog.h */,
+				9A5318E718E44489005DB1F9 /* DebugLog.m */,
+				9A5318E318E443B9005DB1F9 /* DeviceUtil.h */,
+				9A5318E418E443B9005DB1F9 /* DeviceUtil.m */,
 			);
 			path = Support;
 			sourceTree = "<group>";
@@ -229,6 +239,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				9AB8B51F18E1AB0200569D92 /* AppDelegate.m in Sources */,
+				9A5318E518E443B9005DB1F9 /* DeviceUtil.m in Sources */,
+				9A5318E818E44489005DB1F9 /* DebugLog.m in Sources */,
 				9AB8B52918E1AC2400569D92 /* SplashStartupVC.m in Sources */,
 				9A873CE118DA347F00471C35 /* main.m in Sources */,
 			);
