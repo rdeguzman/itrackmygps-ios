@@ -14,9 +14,13 @@
 @implementation AppDelegate
 
 @synthesize window, navigationController;
+@synthesize deviceIdentifier;
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+    self.deviceIdentifier = [[[UIDevice currentDevice] identifierForVendor] UUIDString];
+    NSLog(@"deviceIdentifier: %@", self.deviceIdentifier);
+    
     SplashStartupVC* splashStartupVC = [[SplashStartupVC alloc] initWithNibName:[DeviceUtil nibNameForDevice:@"SplashStartupVC"] bundle:nil];
 
     self.navigationController = [[UINavigationController alloc] initWithRootViewController:splashStartupVC];
@@ -28,7 +32,6 @@
     
     return YES;
 }
-
 
 - (void)applicationWillResignActive:(UIApplication *)application
 {
