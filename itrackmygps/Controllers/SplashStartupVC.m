@@ -8,6 +8,9 @@
 
 #import "SplashStartupVC.h"
 
+#import "DeviceUtil.h"
+#import "RegisterVC.h"
+
 @interface SplashStartupVC ()
 
 @end
@@ -37,6 +40,9 @@
 
 -(IBAction)buttonRegisterPressed:(id)sender {
     NSLog(@"buttonRegisterPressed");
+    
+    RegisterVC* registerVC = [[RegisterVC alloc] initWithNibName:[DeviceUtil nibNameForDevice:@"RegisterVC"] bundle:nil];
+    [self.navigationController pushViewController:registerVC animated:YES];
 }
 
 -(IBAction)buttonLoginPressed:(id)sender {
