@@ -1,15 +1,6 @@
-//
-//  AppDelegate.m
-//  itrackmygps
-//
-//  Created by rupert on 20/03/2014.
-//  Copyright (c) 2014 2RMobile Pty Ltd. All rights reserved.
-//
-
 #import "AppDelegate.h"
 
 #import "SplashStartupVC.h"
-#import "DeviceUtil.h"
 
 @implementation AppDelegate
 
