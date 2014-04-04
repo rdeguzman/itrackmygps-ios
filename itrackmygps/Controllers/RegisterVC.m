@@ -10,9 +10,13 @@
 {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
     if (self) {
-        // Custom initialization
     }
     return self;
+}
+
+- (void)viewWillAppear:(BOOL)animated{
+	[self.navigationController setNavigationBarHidden:NO animated:YES];
+	[super viewWillAppear:animated];
 }
 
 - (void)viewDidLoad
