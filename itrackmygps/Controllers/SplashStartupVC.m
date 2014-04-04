@@ -1,6 +1,5 @@
 #import "SplashStartupVC.h"
 
-#import "DeviceUtil.h"
 #import "RegisterVC.h"
 #import "LoginVC.h"
 
