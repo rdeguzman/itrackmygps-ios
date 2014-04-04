@@ -10,6 +10,7 @@
 
 #import "DeviceUtil.h"
 #import "RegisterVC.h"
+#import "LoginVC.h"
 
 @interface SplashStartupVC ()
 
@@ -47,6 +48,9 @@
 
 -(IBAction)buttonLoginPressed:(id)sender {
     NSLog(@"buttonLoginPressed");
+    
+    LoginVC* loginVC = [[LoginVC alloc] initWithNibName:[DeviceUtil nibNameForDevice:@"LoginVC"] bundle:nil];
+    [self.navigationController pushViewController:loginVC animated:YES];
 }
 
 @end

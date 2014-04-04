@@ -10,6 +10,8 @@
 		317EDDAF42A44B2CB7C5CB16 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E958F558248447BCBD698674 /* libPods.a */; };
 		9A3E072318EF5D3D00668B02 /* RegisterVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A3E072118EF5D3D00668B02 /* RegisterVC.m */; };
 		9A3E072618EF5D8500668B02 /* RegisterVC_iphone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9A3E072518EF5D8500668B02 /* RegisterVC_iphone.xib */; };
+		9A3E072918EF607100668B02 /* LoginVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A3E072818EF607100668B02 /* LoginVC.m */; };
+		9A3E072B18EF609900668B02 /* LoginVC_iphone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9A3E072A18EF609900668B02 /* LoginVC_iphone.xib */; };
 		9A5318E518E443B9005DB1F9 /* DeviceUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A5318E418E443B9005DB1F9 /* DeviceUtil.m */; };
 		9A5318E818E44489005DB1F9 /* DebugLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A5318E718E44489005DB1F9 /* DebugLog.m */; };
 		9A873CD518DA347F00471C35 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A873CD418DA347F00471C35 /* Foundation.framework */; };
@@ -28,6 +30,9 @@
 		9A3E072018EF5D3D00668B02 /* RegisterVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegisterVC.h; sourceTree = "<group>"; };
 		9A3E072118EF5D3D00668B02 /* RegisterVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegisterVC.m; sourceTree = "<group>"; };
 		9A3E072518EF5D8500668B02 /* RegisterVC_iphone.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RegisterVC_iphone.xib; sourceTree = "<group>"; };
+		9A3E072718EF607100668B02 /* LoginVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginVC.h; sourceTree = "<group>"; };
+		9A3E072818EF607100668B02 /* LoginVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginVC.m; sourceTree = "<group>"; };
+		9A3E072A18EF609900668B02 /* LoginVC_iphone.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoginVC_iphone.xib; sourceTree = "<group>"; };
 		9A5318E318E443B9005DB1F9 /* DeviceUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeviceUtil.h; sourceTree = "<group>"; };
 		9A5318E418E443B9005DB1F9 /* DeviceUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DeviceUtil.m; sourceTree = "<group>"; };
 		9A5318E618E44489005DB1F9 /* DebugLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DebugLog.h; sourceTree = "<group>"; };
@@ -145,6 +150,8 @@
 				9AB8B52218E1AC2400569D92 /* SplashStartupVC.m */,
 				9A3E072018EF5D3D00668B02 /* RegisterVC.h */,
 				9A3E072118EF5D3D00668B02 /* RegisterVC.m */,
+				9A3E072718EF607100668B02 /* LoginVC.h */,
+				9A3E072818EF607100668B02 /* LoginVC.m */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -179,6 +186,7 @@
 			children = (
 				9A3E072518EF5D8500668B02 /* RegisterVC_iphone.xib */,
 				9AB8B52C18E1AFA400569D92 /* SplashStartupVC_iphone.xib */,
+				9A3E072A18EF609900668B02 /* LoginVC_iphone.xib */,
 			);
 			path = Xibs;
 			sourceTree = "<group>";
@@ -243,6 +251,7 @@
 			files = (
 				9AB8B52D18E1AFA400569D92 /* SplashStartupVC_iphone.xib in Resources */,
 				9A873CDF18DA347F00471C35 /* InfoPlist.strings in Resources */,
+				9A3E072B18EF609900668B02 /* LoginVC_iphone.xib in Resources */,
 				9A3E072618EF5D8500668B02 /* RegisterVC_iphone.xib in Resources */,
 				9AB8B51B18E1AA9700569D92 /* Images.xcassets in Resources */,
 			);
@@ -293,6 +302,7 @@
 				9A5318E818E44489005DB1F9 /* DebugLog.m in Sources */,
 				9A3E072318EF5D3D00668B02 /* RegisterVC.m in Sources */,
 				9AB8B52918E1AC2400569D92 /* SplashStartupVC.m in Sources */,
+				9A3E072918EF607100668B02 /* LoginVC.m in Sources */,
 				9A873CE118DA347F00471C35 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
