@@ -35,4 +35,12 @@
     // Dispose of any resources that can be recreated.
 }
 
+-(IBAction)buttonRegisterPressed:(id)sender {
+    NSLog(@"buttonRegisterPressed");
+}
+
+-(IBAction)buttonLoginPressed:(id)sender {
+    NSLog(@"buttonLoginPressed");
+}
+
 @end
